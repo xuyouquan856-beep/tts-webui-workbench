@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+artifacts/
+.superpowers/
+dist/
+.eslintcache
+
+# Project specific
+data/audio/*
+!data/audio/.gitkeep
+data/reference/*
+!data/reference/.gitkeep
+data/db/*
+!data/db/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Desktop/Tauri Build Artifacts
+build/
+desktop-sidecar/
+*.spec
+src-tauri/target/
+src-tauri/binaries/*
+!src-tauri/binaries/.gitkeep
